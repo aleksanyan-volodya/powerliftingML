@@ -1,0 +1,88 @@
+*.csv
+*.tsv
+*.json
+*.parquet
+*.zip
+data/raw/
+data/processed/
+data/external/
+
+# Personal
+Volodya_todo.md
+
+# Submissions & outputs
+submissions/
+output/
+results/
+*.pkl
+*.pickle
+*.joblib
+
+# Jupyter & IPython
+.ipynb_checkpoints/
+*.ipynb
+.jupyter/
+.ipython/
+
+# IDE & Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+*.sublime-project
+*.sublime-workspace
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv
+
+# Dependencies lock files (optional - uncomment if you want to track them)
+# poetry.lock
+# requirements.txt
+
+# OS
+.DS_Store
+Thumbs.db
+
+# ML & Data Science
+.mlflow/
+mlruns/
+outputs/
+wandb/
+.dvc
+.dvc.lock
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
+*.log
