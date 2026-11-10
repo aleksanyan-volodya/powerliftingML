@@ -17,7 +17,13 @@ dependencies = [
     "scikit-learn>=1.3.0",
     "matplotlib>=3.7.0",
     "seaborn>=0.12.0",
+    "optuna>=4.0.0",
+    "lightgbm>=4.0.0",
+    "catboost>=1.2.0",
+    "tabicl>=2.2.0",
 ]
+# AutoGluon (autogluon.tabular[lightgbm,catboost,xgboost]) est installé à part dans
+# .venv-autogluon (Python 3.12), car il ne s'installe pas encore sous Python 3.14.
 
 [project.optional-dependencies]
 dev = [
@@ -31,5 +37,5 @@ dev = [
 ml = [
     "xgboost>=2.0.0",
     "lightgbm>=4.0.0",
-    "catboost>=7.0.0",
+    "catboost>=1.2.0",
 ]

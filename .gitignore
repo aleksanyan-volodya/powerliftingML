@@ -20,7 +20,6 @@ results/
 
 # Jupyter & IPython
 .ipynb_checkpoints/
-*.ipynb
 .jupyter/
 .ipython/
 
@@ -86,3 +85,14 @@ wandb/
 *.temp
 .cache/
 *.log
+
+# Environnement Python 3.12 pour AutoGluon (incompatible 3.14)
+.venv-*/
+
+# Rapport (usage interne) et dépendances locales des modèles de fondation
+report/
+.cache/
+LimiX/
+
+# Supports de cours (usage personnel)
+Cours/
